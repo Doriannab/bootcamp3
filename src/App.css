@@ -1,0 +1,271 @@
+/* src/App.css */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+}
+
+.lour{
+  width: 320px;
+  display: flex;
+
+}
+.graphe{
+  margin: 20px;
+}
+
+.cont{
+  position: relative;
+  margin: 15px;
+}
+
+.container{
+  width: 320px;
+  height: 90%;
+  background: white;
+  padding-bottom: 30%;
+  border: 0.5px solid grey;
+
+}
+
+.dire {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 104px;
+  letter-spacing: 0em;
+  text-align: right;
+  margin-left: -23%;
+  color: #00000066;
+
+
+}
+
+.menu{
+  width: 320px;
+  height: 609px;
+  top: 100px;
+
+}
+
+.rire{
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  display: flex;
+  align-items: center;
+  background-color: #343B61;
+}
+
+.icon{
+  color: white;
+}
+
+.sidebar {
+  width: 250px;
+  height: 100%;
+}
+
+.main-menu {
+  list-style: none;
+  padding: 5%;
+}
+
+.main-menu a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  display: block;
+  display: flex;
+  align-items: center;
+}
+
+.main-menu .rire{
+  text-decoration: none;
+  color: white;
+  padding: 10px 20px;
+  display: block;
+  display: flex;
+  align-items: center;
+  font-weight: 700
+}
+
+.main-menu a svg {
+  margin-right: 10px;
+}
+
+.main-menu a:hover {
+  background-color: blue;
+}
+
+.content {
+  flex: 1;
+  margin-top: 10%;
+}
+
+.report-center {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.report-center a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  display: block;
+  display: flex;
+  align-items: center;
+}
+
+.report-center a svg {
+  margin-right: 10px;
+}
+
+.report-center a:hover {
+  background-color: blue;
+}
+
+span{
+  font-size: 16px;
+  font-family: roboto 'sans serif';
+  opacity: 0.5;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.close{
+  width: 270px;
+  height: 180px;
+  top: 929px;
+  left: 25px;
+  border-radius: 6px;
+  background: #FFF9DB;
+}
+
+.title {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #FFA500;
+  opacity: 2;
+  padding: 18px;
+  display: flex;
+  justify-items: center;
+  
+
+}
+
+.para{
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: black;
+
+}
+
+.button{
+  width: 138px;
+  height: 40px;
+  top: 850px;
+  left: 91px;
+  border-radius: 4px;
+  color:white;
+  background: black;
+  text-align: center;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+.rince{
+  width: 18px;
+  height: 14px;
+  top: 5px;
+  text-align: right;
+  color: black;
+  margin-left: 20px;
+  cursor: pointer;
+  
+
+}
+
+.dash{
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+
+.image{
+  width: 47.05px;
+  height: 46.91px;
+  top: 36.95px;
+  left: 66.96px;
+
+}
+
+
+
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+  body {
+    flex-direction: column;
+  }
+
+  /* .sidebar {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+  } */
+}
+
+@media (max-width: 1200px) {
+  .sidebar,
+  .content,
+  .triple {
+    width: 100%;
+    float: none;
+  }
+
+  .sidebar,
+  .content {
+    padding: 10px;
+  }
+
+  .triple {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cont {
+    text-align: left;
+  }
+
+  .sidebar,
+  .content,
+  .triple {
+    width: 100%;
+    float: none;
+  }
+
+  .sidebar,
+  .content {
+    padding: 10px;
+  }
+
+  .triple {
+    padding: 10px;
+  }
+}
