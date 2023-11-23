@@ -10,7 +10,7 @@ import { FaChevronDown } from "react-icons/fa";
 
 function Navbar() {
   return (
-    <div className='container-fluid'>
+    <div className=''>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -22,7 +22,7 @@ function Navbar() {
         </form>
       </div>
       <div className='gal d-flex text-center '>
-           < IoIosNotificationsOutline />
+           < IoIosNotificationsOutline className='fs-3 me-3' / >
            
            <img src={woman} alt="woman" />
            <p className='text-center '>big boss</p>
