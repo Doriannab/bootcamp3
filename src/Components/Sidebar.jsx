@@ -1,63 +1,66 @@
-import React, { useState } from 'react';
+// Sidebar.js
+import React from 'react';
+import Logo from '../Components/Logo';
+import Main from '../Components/Main';
+import ReferenceItems from '../Components/ReferenceItems';
+import UpgradeSection from '../Components/UpgradeSection';
 import { FaHome, FaFile, FaMoneyBillAlt, FaEnvelope, FaUser, FaCog, FaChartBar } from 'react-icons/fa';
-import Art from "../art.png";
-import { RxCross2 } from "react-icons/rx";
-import '../App.css';
+import Art from '../art.png';
+import '../sidebar.css';
 
 
- function Sidebar() {
+
+
+const Sidebar = () => {
+  
+  const menuItems = [
+    { href: '#', icon: <FaFile className="icoon" />, label: 'Documents' },
+    { href: '#', icon: <FaMoneyBillAlt className="icoon" />, label: 'Payments' },
+    { href: '#', icon: <FaEnvelope className="icoon" />, label: 'Messages' },
+    { href: '#', icon: <FaChartBar className="icoon" />, label: 'Report Center' },
+  ];
+
+  const referencesItems = [
+    { href: '#', icon: <FaUser  className="icoon"/>, label: 'Users' },
+    { href: '#', icon: <FaCog  className="icoon"/>, label: 'Settings' },
+  ];
+
   return (
-    <div className="container">
-    <div className="cont">
-     <div className="mb-4 lour">
-          <img
-            src={Art}  // Ajoutez le chemin de votre logo ici
-            alt="Logo"
-            width="30"
-            height="30"
-            className="d-inline-block align-top mr-2 image"
+    <div className="containerr">
+      <div className="cont w-20">
+        <Logo src={Art} alt="Logo" width="30" height="30" />
+        
+        <div className="menu">
+          <div className="sidebar">
+            <span>Main Menu</span>
+            <ul className="main-menu">
+            <li>
+              <a href='#' className="rire">< FaHome /> Overview </a>
+            </li>
+              {menuItems.map((item, index) => (
+                <Main key={index} {...item} />
+              ))}
+            </ul>
+          </div>
+
+          <div className="content">
+            <span>REFERENCES</span>
+            <ul className="report-center">
+              {referencesItems.map((item, index) => (
+                <ReferenceItems key={index} {...item} />
+              ))}
+            </ul>
+          </div>
+
+          <UpgradeSection 
+            title="Upgrade to Enterprise Account!"
+            description="Increase your sales by using special features of enterprise Membership"
           />
-          <h2 className="dash">Artics</h2><br/>
-          <p className="dire">Business & consulting</p>
-          {/* <p>Business & Consulting</p> */}
+          <br/><br/>
         </div>
-        {/* <div className="menu"> */}
-    <div className="sidebar">
-    <span className="">Main Menu</span>
-    <ul className="main-menu">
-    <li><a href="#" className="rire"><FaHome className="icon" /> Overview</a></li>
-    <li><a href="#"><FaFile /> Documents</a></li>
-    <li><a href="#"><FaMoneyBillAlt/> Payments</a></li>
-    <li><a href="#"><FaEnvelope /> Messages</a></li>
-    <li><a href="#"><FaChartBar /> Report Center</a></li>
-    </ul>
+      </div>
     </div>
+  );
+};
 
-    <div className="content">
-    <span>REFERENCES</span>
-    <ul className="report-center">
-    <li><a href="#"><FaUser /> Users</a></li>
-    <li><a href="#"><FaCog /> Settings</a></li>
-    </ul>
-    </div>
-    {/* </div> */}
-
-    <div className="triple">
-    <div className="close">
-        <h3 className="title">Upgrade to Enterprise Account!<RxCross2 className="rince" /></h3>
-        <p className="para">Increase your sales by using special features of enterprise Membership </p>
-        <button className="button">Upgrade</button>
-
-    </div>
-    </div>
-    </div>
-    </div>
-  )
-}
 export default Sidebar;
-
-
-   
- 
-
-

@@ -1,0 +1,428 @@
+.containerr {
+  flex-direction: column;
+  width: 20%;
+  position: fixed;
+  padding: 1px;
+  z-index: 1000;
+  display: flex;
+}
+.App{
+  display: flex;
+  width: 100%;
+  background:white;
+  flex-direction: over;
+}
+
+.rielle{
+  background-color: blue;
+  color: blue;
+}
+
+.icoon{
+  /* width: 20%; */
+  color: black;
+
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  color: black;
+  /* padding: 20px; */
+  height: 100%;
+}
+
+.lour {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.image {
+  margin-right: 10px;
+  width: 49px;
+  height: 46px;
+  top: 36.95px;
+} 
+
+.anna {
+  display: flex;
+  flex-direction: column;
+}
+
+.dash {
+  margin: 0;
+  font-size: 1.5em;
+  font-family: Roboto;
+  font-weight: 900;
+  line-height: 45px;
+}
+
+
+  .dire {
+    font-family: Roboto;
+    font-size: 10px;
+    font-weight: 900;
+    line-height: 0px;
+    opacity:1;
+    margin:0;
+
+    color: #00000066;
+  }
+
+
+span{
+  font-size: 16px;
+  font-family: roboto 'sans serif';
+  opacity: 0.5;
+  margin-top: 80%;
+  cursor: pointer;
+}
+
+.menu {
+  flex-grow: 1;
+  margin-bottom: 20%;
+}
+
+
+.rire{
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+  display: flex;
+  align-items: center;
+  background-color: blue;
+}
+
+.icon{
+  color: white;
+}
+
+.main-menu {
+  list-style: none;
+ 
+}
+
+.main-menu a {
+  text-decoration: none;
+  color: black;
+  padding: 8px ;
+  display: block;
+  display: flex;
+  align-items: center;
+  margin-left: 5%;
+}
+
+.main-menu .rire{
+  text-decoration: none;
+  color: white;
+  padding: 8px;
+  display: block;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  width: 90%;
+  border-radius: 5px;
+  
+}
+
+.main-menu a svg {
+  margin-right: 10px;
+}
+
+.main-menu a:hover {
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  width: 90%;
+  border-radius: 5px;
+ 
+}
+.sidebar {
+  margin-bottom: 20px;
+}
+
+.main-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.rire {
+  text-decoration: none;
+  color: #ecf0f1;
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.content {
+  margin-bottom: 20px;
+}
+
+.report-center {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 5%;
+}
+.report-center a {
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  display: block;
+  display: flex;
+  align-items: center;
+}
+
+.rire{
+  text-decoration: none;
+  color: black;
+  transition: background-color 0.3s;
+
+  /* Style par défaut */
+  display: inline-block;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.rire:hover {
+  background-color: blue;
+  color: white;
+  padding: 10px 20px;
+  display: block;
+  display: flex;
+  align-items: center;
+}
+.gars{
+  margin-top: 30%;
+ 
+}
+
+.oie{
+  background: #F8F8F8;
+  width: 100%;
+  /* height: 50%; */
+  padding-bottom: 3%;
+
+}
+
+
+
+.report-center a svg {
+  margin-right: 10px;
+}
+
+.report-center a:hover {
+  background-color: blue;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  width: 90%;
+  border-radius: 5px;
+
+}
+
+
+.triple {
+  background-color: #fef86c;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: -5%;
+  width: 80%;
+  margin-left: 20px;
+  padding-bottom:5%;
+
+
+}
+
+.close {
+  color: #fff;
+}
+
+.title {
+  margin: 0;
+
+
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  /* line-height: 18px; */
+  text-align: center;
+  color: #FFA500;
+  opacity: 3;
+  display: flex;
+  justify-items: center;
+}
+
+.rince {
+  width: 18px;
+  height: 10px;
+  text-align: left;
+  color: black;
+  margin-left: 8px;
+  cursor: pointer;
+  margin-top: 2%;
+ 
+}
+
+.para {
+  margin: 5px 0;
+    font-family: Roboto;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: black;
+  
+}
+
+.button {
+  background-color: black;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 10px;
+  width: 100px;
+  height: 38px;
+  border-radius: 4px;
+  margin-top: -3%;
+;
+  
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* Ajout de styles pour écrans plus petits */
+@media (max-width: 768px) {
+  .App {
+    display: flex;
+    height:90%;
+    width: auto;
+    text-align: left;
+
+
+  }
+  .containerr {
+    flex-direction: column;
+    width: 22%;
+    position: fixed;
+    z-index: 1000
+
+  }
+
+  .cont {
+    padding: -5px; 
+  }
+
+  .lour {
+    flex-direction: column;
+  }
+
+  .image {
+    margin-right: 0; 
+  }
+
+  .dash {
+    font-size: 1.2em; 
+    line-height: 35px;
+    text-align: center;
+    margin-left: 20%;
+
+  
+  }
+
+  .dire {
+    font-size: 6px; 
+    line-height: 0px;
+    font-weight: 700;
+    margin-left: 25%;
+  }
+
+  span {
+    margin-top: 5px; 
+    font-size: 13px;
+  }
+
+  .main-menu  a {
+    padding: 12px;
+    font-size: 12px;
+    
+  }
+  .report-center a:hover {
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    font-weight: 800;
+    width: 90%;
+    border-radius: 5px;
+    margin-top: %;
+  
+  }
+
+  .report-center a {
+    padding: 1px;
+    font-size: 12px;
+  }
+
+  .rire {
+    padding: 10px; 
+  }
+
+  .content {
+    margin-bottom: 10px; 
+    display:over;
+  }
+
+  .triple {
+    padding: 5px; 
+  }
+
+  .title {
+    font-size: 14px; 
+  }
+
+  .para {
+    font-size: 10px; 
+  }
+
+  .button {
+    width: 100%;
+  }
+
+  .oie{
+    background: #F8F8F8;
+    width: 110%;
+    padding-bottom: 20%;
+   
+  
+  }
+  
+  .main-menu a:hover {
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    font-weight: 800;
+    width: 90%;
+    border-radius: 5px;
+    margin: 5%;
+   
+  }
+  
+
+}
+
+
+

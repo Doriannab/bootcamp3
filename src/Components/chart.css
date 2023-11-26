@@ -1,0 +1,217 @@
+/* Styles for large screens */
+.containe {
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin-left: 5%;
+}
+
+.ienne {
+  width: 120px;
+  height: 100px;
+  background: #D0EBFF;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.chart {
+  padding: 20px;
+  text-align: left;
+}
+
+.over {
+  margin: 0;
+  color: black;
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.lion {
+  margin-top: 20px;
+  display: flex;
+}
+
+.mage {
+  width: 4%;
+  height: 4%;
+}
+
+h4 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.io {
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  color: white;
+  background-color: #D45151;
+  margin: 10px;
+}
+
+.pist {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #D45151;
+}
+
+.fag {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 6.5%;
+  margin-top: -10px;
+}
+
+.name {
+  box-shadow: 0px 2px 12px 0px #25334226;
+  display: flex;
+  width: 114%;
+  height: 70%;
+  margin-bottom: 4%;
+}
+
+.dark {
+  margin-top: 1.5%;
+}
+
+.croix {
+  width: 140px;
+  height: 100px;
+  top: 288px;
+  background: #FFE3E3;
+}
+
+.griff {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: black;
+  margin-left: 2%;
+}
+
+.crai {
+  width: 18px;
+  height: 18px;
+  background: #D45151;
+  border-radius: 18px;
+  justify-items: center;
+  color: #fff;
+  margin-left: 40%;
+  margin-top: 40%;
+}
+
+.craie {
+  width: 18px;
+  height: 18px;
+  border-radius: 18px;
+  justify-items: center;
+  color: black;
+  margin-left: 40%;
+  margin-top: 40%;
+}
+
+.mame {
+  box-shadow: 0px 2px 12px 0px #25334226;
+}
+
+.blanc {
+  background: #fff;
+  text-align: center;
+  width: 100%;
+}
+
+.soule {
+  font-family: Roboto;
+  font-size: 13.5px;
+  font-weight: 400;
+  /* line-height: 10px; */
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 2%;
+}
+
+.but {
+  width: 224px;
+  height: 60px;
+  border-radius: 4px;
+  color: white;
+  background: #343A40;
+  text-align: center;
+  margin-left: 80%;
+}
+
+.break {
+  margin-top: -15%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .containe {
+    width: 70%;
+    height: 100vh;
+    margin-left: 15px; /* Example adjustment for small screens */
+  }
+
+  .row {
+    align-items: center;
+  }
+
+  .chart {
+    margin-bottom: 20px;
+  }
+
+  .lion {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin: 0;
+  }
+
+  .mage {
+    width: 15%;
+    height: 15%;
+  }
+
+  .fag {
+    margin-left: 2%;
+  }
+  .but {
+    width: 50%; 
+    color: white;
+    background: #343A40;
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 10%; 
+  }
+}

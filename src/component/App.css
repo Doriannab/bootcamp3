@@ -1,3 +1,7 @@
+.container {
+  background: #fff;
+  width: 100%;
+}
 body{
   font-family: 'Montserrat', sans-serif;
 font-family: 'Montserrat Alternates', sans-serif;
@@ -5,18 +9,15 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Ubuntu', sans-serif;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
+.post{
+  display: flex;
+  
+}
+.pif{
+  color: black;
+  margin-left: -100%;
+  margin-top: 10px;
+}
 
 
 
@@ -40,7 +41,56 @@ img{
   margin-right: 20px;
   border-radius: 70%;
 }
- .fs{
-  margin-right: 30px;
-  font-size: x-large;
- }
+.position{
+  color: black;
+ text-align: center;
+ 
+
+}
+
+.form-control{
+ width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .gal img {
+    width: 30px; 
+    height: 30px;
+  }
+
+  .gal p {
+    margin-right: 10px; 
+  }
+
+  .fs {
+    margin-right: 10px; 
+    font-size: large; 
+  }
+  .pif{
+    color: black;
+    margin-left: 100%;
+    margin-top: 10px;
+  }
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+}
+
+@media (max-width: 767px) {
+  .die {
+    display: flex; 
+  }
+
+  .position{
+    position: static; 
+    margin-top: 10px;  
+  }
+
+  .die input {
+    margin-top: 10px; /* Ajouter un espacement en haut pour l'entrée sur des écrans plus petits */
+  }
+}
