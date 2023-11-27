@@ -11,11 +11,12 @@ import { FaChevronDown } from "react-icons/fa";
 
 function Navbar() {
   return (
-    <div className='container'>
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
-    <div className="container-fluid ">
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <form className="d-flex" role="search">
+
+    <div className=''>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <form class="d-flex" role="search">
         <div className="die d-flex position-relative align-items-center">
        
         <div className='post ms-2 text-center  fs-5'>
@@ -29,6 +30,7 @@ function Navbar() {
       <div className='gal d-flex text-center '>
            < IoIosNotificationsOutline size={35} className="rie"/>
            
+           
            <img src={woman} alt="woman" />
            <p className='text-center '>Coach Karl</p>
            < FaChevronDown />
@@ -39,5 +41,6 @@ function Navbar() {
     </div>
   )
 }
+
 
 export default Navbar;
